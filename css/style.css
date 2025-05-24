@@ -15,6 +15,100 @@
     --light-blue: rgba(93, 88, 239, 1);
     --black: #111111;
 }
+.orange {
+    color: var(--orange);
+}
+.sky-blue {
+    color: var(--sky-blue);
+}
+.blue-green {
+    color: var(--blue-green);
+}
+.light-blue {
+    color: var(--light-blue);
+}
+
 
 
 /* Header Styles */
+
+
+/* nav related css code */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 20px auto;
+
+}
+nav .logo {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--black);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+
+}
+nav .logo img {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+nav ul li {
+    margin: 0 1rem;
+    position: relative;
+}
+nav ul li a {
+    text-decoration: none;
+    color: var(--black);
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+    font-size: 1.25rem;
+}
+
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    background: var(--orange);
+    padding: 10px 50px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 30px;
+}
+#menu-toggle {
+    display: none;
+}
+#menu-toggle i {
+    display: inline-block;
+    color: #111111;
+    height: 30px;
+    width: 30px;
+    font-size: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+    z-index: 1000;
+
+}
+
+
+
+/* Responsive Styles */
+
+/* for small screens */
+@media only screen and (max-width: 600px) { 
+    
+}
+
+  
