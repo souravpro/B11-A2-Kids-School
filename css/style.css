@@ -30,6 +30,19 @@
 .black {
     color: var(--black) !important;
 }
+/* Background Colors */
+.bg-color-orange {
+    background-color: var(--orange) !important;
+}
+.bg-color-sky-blue {
+    background-color: var(--sky-blue) !important;
+}
+.bg-color-blue-green {
+    background-color: var(--blue-green)!important;
+}
+.bg-color-light-blue {
+    background-color: var(--light-blue) !important;
+}
 .bg-color-gardient1 {
     background: #DEF5FF;
     background: linear-gradient(180deg, rgba(222, 245, 255, 1) 0%, rgba(255, 255, 255, 1) 100%);
@@ -264,13 +277,22 @@ main {
     padding: 20px;
 }
 
-.story-content .date {
+.story-box-img {
+    position: relative;
+}
+
+.story-box-img .date {
   display: inline-block;
-  padding: 5px 12px;
-  border-radius: 20px;
-  font-size: 0.75rem;
-  color: #000;
-  margin-bottom: 10px;
+  padding: 15px 20px;
+  border-radius: 50px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: var(--black);
+  position: absolute;
+  left: 10%;
+  bottom: -20px;
+  opacity: 0.9;
+  transition: opacity 0.3s ease;
 }
 
 .story-box.large-item {
@@ -286,6 +308,7 @@ main {
 .section-btn a {
     background: var(--black);
     color: #fff;
+    text-align: center;
 }
 
 
